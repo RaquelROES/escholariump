@@ -64,14 +64,7 @@
 	}
 
 	.content_type_clase_escholariump #actividad .content .header .title h3 {
-		font-family: 'Raleway', Georgia, serif;
-		font-size: 4.0rem;
-		font-weight: bold;
-		color: #f9bfad;
-		display: block;
-		padding: 50px 20px 0px 0px;
-		margin-top: -43px;
-		margin-bottom: 20px;
+		    display: none;
 	}
 	.content_type_clase_escholariump #actividad .content .header .title h3 span {
 		display: block;
@@ -196,12 +189,18 @@
 		margin: 0px;
 		opacity: 1;
 		text-shadow: none;
-		color: #f9bfad;
+		color: #666;
 		font-size: 1.9rem;
 		position: relative;
 		top: auto;
 		left: auto;
 		cursor: pointer;
+	}
+
+
+	.navigator .slider-control.left:before,
+	.navigator .slider-control.right:before {
+		color: #51873a;
 	}
 
 	.navigator .slider-control.left:before,
