@@ -207,16 +207,16 @@
 	.navigator .slider-control.left:before,
 	.navigator .slider-control.right:after {
 		font-family: 'FontAwesome';
-		position: absolute;
-		margin-top: 0;
-		background: none;
-		color: #f9bfad;
-		border-radius: 120px;
-		width: 48px;
-		height: 48px;
-		line-height: 4.8rem;
-		text-align: center;
-		font-size: 4.8rem;
+   		position: absolute;
+    	margin-top: 0;
+    	background: none;
+    	color: #51873a;
+   		border-radius: 120px;
+    	width: 20px;
+    	height: 20px;
+   	 	line-height: 4.8rem;
+    	text-align: center;
+    	font-size: 2.8rem;
 	}
 
 	.navigator .slider-control.left {
@@ -442,20 +442,7 @@
 /* Pagination */
 
 .js-slide-wrapper > .header .single-pagination {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 75px;
-	height: 75px;
-	background: #5ebdb2;
-	color: #ffffff;
-	font-size: 4.5rem;
-	line-height: 4.5rem;
-	padding: 2px 16px 2px 2px;
-	font-family: 'Raleway', Georgia, serif;
-	font-weight: bold;
-	text-align: center;
-	border-radius: 0 0 120px 0;
+	display: none;
 }
 
 /* Iconos */
