@@ -198,8 +198,7 @@
 	}
 
 
-	.navigator .slider-control.left:before,
-	.navigator .slider-control.right:before {
+	body:not(.android) .slider-control:not([disabled]):not(.disabled):hover {
 		color: #51873a;
 	}
 
