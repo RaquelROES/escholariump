@@ -282,10 +282,10 @@
 	.content_type_clase_escholariump .publisher-navbar {
 		position: fixed;
 		top: 44px;
-		background: #ffffff;
+		background: #e2e5f2;
 		width: 100%;
 		left: 0;
-		height: 58px;
+		height: 70 px;
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 0 9px;
 	}
 
@@ -320,42 +320,36 @@
 		padding-right: 50px;
 	}
 
-	.content_type_clase_escholariump .logo-publisher {
-		display: block;
-		margin-left: -48px;
-	}
-	.content_type_clase_escholariump .logo-publisher {
-		content: " ";
-		background-image: url(logo-blink.png);
-		height: 36px;
-		background-repeat: no-repeat;
-		width: 100px;
-		margin-left: -100px;
-		margin-right: 60px;
-		float: left;
-		background-size: contain;
-	}
+
+.content_type_clase_escholariump .logo-publisher {
+    content: " ";
+    background-image: url(images/01logojuntaextremadura.png);
+    height: 52px;
+    background-repeat: no-repeat;
+    width: 134px;
+    margin-left: -100px;
+    margin-right: 60px;
+    float: left;
+    margin-top: -10px;
+    background-size: cover;
+}
 
 	.content_type_clase_escholariump .slider-indicators {
 		padding: 0;
 		display: inline-block;
 		text-align: center;
 		position: relative;
-		width: 5000px;
 		bottom: 0px;
 		left: 0px;
 		z-index: 0;
-		background-color: #ffffff;
-	    color: #00599C;
 	}
 
 
 	.content_type_clase_escholariump .publisher-navbar .dropdown button,
 	.content_type_clase_escholariump .publisher-navbar li {
-		border-radius: 5px;
-		border: none;
+		border-radius: 0px;
 		background-color: transparent;
-		color: #ffffff;
+		color: #000;
 		vertical-align: middle;
 		margin: 0px 5px;
 		text-indent: 0px;
@@ -363,12 +357,15 @@
 		font-size: 2.0rem;
 		font-weight: 400;
 		cursor: pointer;
-		background: #5ebdb2;
-		border-radius: 120px;
 	}
+
+	.content_type_clase_escholariump .publisher-navbar li{
+        border-right: 2px solid #51873a;
+	}
+
 	.content_type_clase_escholariump .publisher-navbar .dropdown button {
 		background: none;
-		color: #5ebdb2;
+		color: #51873a;
 	}
 
 	.content_type_clase_escholariump .slider-indicators:after {
@@ -392,12 +389,11 @@
 	.content_type_clase_escholariump .slider-indicators li.active,
 	.content_type_clase_escholariump .publisher-navbar li:hover {
 		opacity: 1;
-		background:#f9bfad;
 	}
 
 	.content_type_clase_escholariump .publisher-navbar #top-navigator {
 		float: none;
-		margin-top: 10px;
+		margin-top: 20px;
 		display: block;
 	}
 
@@ -432,11 +428,11 @@
 	}
 
 	.content_type_clase_escholariump .publisher-navbar .dropdown li a {
-		color: #5ebdb2;
+		color: #51873a;
 	}
 
 	.content_type_clase_escholariump .publisher-navbar .dropdown .caret {
-		border-color: #5ebdb2 transparent transparent transparent;
+		border-color: #51873a transparent transparent transparent;
 		margin-left: 6px;
 
 	}
