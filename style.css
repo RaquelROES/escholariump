@@ -332,6 +332,7 @@
     float: left;
     margin-top: -10px;
     background-size: cover;
+    display: block;
 }
 
 	.content_type_clase_escholariump .slider-indicators {
