@@ -542,6 +542,124 @@
 		margin-top: -2px;
 	}
 
+
+/*listas ordenadas*/
+/*LISTA ORDENADA 1*/ 
+
+
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+    content: counter(bck-li-counter)" ";
+    width: 22px;
+    border-radius: 4px;
+    position: absolute;
+    text-align: center!important;
+    color: #fff!important;
+    background-color: #71C169;
+    font-weight: 600!important;
+    font-family: sans-serif;
+    margin-left: -30px;
+}
+
+
+
+/*LISTA ORDENADA 2*/
+
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+    position: relative;
+    z-index: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .popover-content ol.bck-ol-2 li:before,
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    content: counter(bck-li-counter, lower-alpha)")";
+    color: #71C169!important;
+    font-weight: bold;
+    margin-top: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+
+/*LISTA ORDENADA 3*/
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li {
+    counter-increment: bck-li-counter;
+    padding-left: 4px;
+    position: relative;
+    z-index: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+#actividad .popover-content ol.bck-ol-3 li:before,
+#actividad .content .workspace ul li ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter)" ";
+    width: 22px;
+    border-radius: 4px;
+    position: absolute;
+    text-align: center!important;
+    color: #fff!important;
+    background-color: #069bda;
+    font-weight: 600!important;
+    font-family: sans-serif;
+    margin-left: -28px;
+}
+/**/
+
+
+/*lista ordenada 4*/
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4, #actividad .content .workspace ul li .bck-ol-4 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li, #actividad .popover-content .bck-ol-4 li, #actividad .content .workspace ul li .bck-ol-4 li {
+    counter-increment: bck-li-counter;
+    position: relative;
+    z-index: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso ol.bck-ol-4 li:before, #actividad .popover-content ol.bck-ol-4 li:before, #actividad .content .workspace ul li ol.bck-ol-4 li:before {
+    content: counter(bck-li-counter, lower-alpha)")";
+    color: #069BDA!important;
+    font-weight: bold;
+    margin-top: 0;
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+
+
 	.texto_curso ul li,
 	.workspace ul li ul li,
 	.cke_contents ul li {
