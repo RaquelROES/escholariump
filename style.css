@@ -631,8 +631,8 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .popover-content .bck-ol-3 li,
 #actividad .content .workspace ul li .bck-ol-3 li {
     counter-increment: bck-li-counter;
-    padding-left: 4px;
     position: relative;
+    margin-bottom: 12px;
     z-index: 0;
 }
 
@@ -642,15 +642,15 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
     content: counter(bck-li-counter)" ";
     width: 22px;
-    border-radius: 4px;
     position: absolute;
     text-align: center!important;
-    color: #fff!important;
-    background-color: #069bda;
-    font-weight: 600!important;
+    color: #000!important;
+    background-color: #fdcd00;
+    font-weight: 400!important;
     font-family: sans-serif;
-    margin-left: -28px;
+    font-size: 18px;
 }
+
 /**/
 
 
