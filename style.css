@@ -716,8 +716,8 @@ ol.bck-ol.bck-ol-1 li {
 	list-style: none;
 }
 
-#actividad .content .texto_curso ul li:before,
-#actividad .content .workspace ul li ul li:before,
+	
+#actividad .cke_contents .texto_curso .bck-ul li:before
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
 	content: "";
