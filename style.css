@@ -494,12 +494,19 @@
     font-weight: 500;
 	}
 
-	.bck-title2 {
-		font-size: 2.0rem;
-		clear: both;
-		padding: 10px 20px 0px 0;
-		margin-bottom: 20px;
-	}
+	.bck-title2 { 
+    clear: both;
+    margin-bottom: 20px;
+    border-top: 10px solid #5382b2;
+    border-left: 50px solid #5382B9;
+    border-right: 80px solid #5382B9;
+    background: #c4d3d3;
+    padding: 2px 15px;
+    margin-left: 0px;
+    font-weight: 500;
+    font-size: 24px;
+    border-bottom: 2px solid #0d478f;
+}
 
 	.bck-title3 {
 		font-size: 1.6rem;
