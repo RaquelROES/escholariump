@@ -720,16 +720,9 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .cke_contents .texto_curso .bck-ul li:before
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
-	content: "";
-    position: absolute;
-	height: 6px;
-    width: 6px;
-    background-color: #00AEEF;
-    margin-top: 12px;
-    margin-left: -15px;
-	margin-right: 7px;
-	margin-bottom: 2px;
-	border-radius: 50%;
+	font-family: 'FontAwesome';
+    content: "\f14a";
+    color: #0d478f;
 }
 
 
@@ -911,15 +904,6 @@ ol.bck-ol.bck-ol-1 li {
 	}
 
 
-	.bck-box.box-2 ul li:before {
-		font-family: 'FontAwesome';
-		content:"\f00c";
-		color: #f9bfad;
-		background: none;
-		margin-top: -2px;
-		margin-left: -24px;
-		font-size: 2.0rem;
-	}
 
 /**/
 
