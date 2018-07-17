@@ -30,7 +30,8 @@
 				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
-				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td' } },
+				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td' } },
+				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td2' } },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
