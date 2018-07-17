@@ -814,6 +814,8 @@ ol.bck-ol.bck-ol-1 li {
 	.bck-box.box-1.center .bck-content{
 		background-color: #fffcd6;
     	padding: 35px 10px 10px 10px;
+    	border-left: 10px solid #fff;
+   		border-right: 10px solid #fff;
 	}
 	
 
@@ -823,11 +825,12 @@ ol.bck-ol.bck-ol-1 li {
     padding: 25px;
     background-size: contain;
     margin-left: 10px;
-    background-image: url(/images/icono0001072018.png);
+    background-image: url(images/icono0001072018.png);
     float: left;
     background-repeat: no-repeat;
     display: inline-block;
     border-bottom: 0px;
+
 }
 
 	
