@@ -935,6 +935,24 @@ ol.bck-ol.bck-ol-1 li {
 }
 
 
+/*caja 4*/
+
+.bck-box.box-4.center .bck-title {
+    background: #0d478f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 10px 0px 16px;
+    border-left: 10px solid #0d478f;
+    margin-bottom: -15px;
+}
+
+
+.bck-box.box-4.center .bck-content {
+    background: #bdc6e0;
+    padding: 15px;
+    border-left: 10px solid #0d478f;
+}
 
 /**/
 
