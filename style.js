@@ -68,6 +68,10 @@
 				return $(this).html() + ' > ' + blink.courseInfo.unit;
 			})
 		},
+		
+		configEditor: function (editor) {
+			editor.dtd.$removeEmpty['span'] = false;
+		},
 
 		addPageNumber: function() {
 			$('.js-slider-item').each(function(i,e) {
