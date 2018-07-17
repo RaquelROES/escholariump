@@ -776,7 +776,7 @@ ol.bck-ol.bck-ol-1 li {
 	.cke_contents table:not(.rf-tablegrid) th,
 	.content table:not(.rf-tablegrid) td,
 	.content table:not(.rf-tablegrid) th {
-		padding: 7px;
+		padding: 9px 7px 9px 7px;
 	}
 
 	.cke_contents table:not(.rf-tablegrid) caption,
