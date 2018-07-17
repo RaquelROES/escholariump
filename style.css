@@ -620,12 +620,15 @@ ol.bck-ol.bck-ol-1 li {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-    content: counter(bck-li-counter, lower-alpha)")";
-    color: #71C169!important;
-    font-weight: bold;
-    margin-top: 0;
-    padding-right: 10px;
-    text-align: right;
+    content: counter(bck-li-counter)" ";
+    width: 22px;
+    position: absolute;
+    text-align: center!important;
+    color: #fff;
+    background-color: #0065a8;
+    font-weight: 400!important;
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
 /*LISTA ORDENADA 3*/
