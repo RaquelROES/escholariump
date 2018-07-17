@@ -823,7 +823,7 @@ ol.bck-ol.bck-ol-1 li {
     border-bottom: 0px;
 	}
 
-	.bck-box.bck-content {
+	.bck-box.box-1 .bck-content{
 		background-color: #fffcd6;
     	padding: 35px 10px 10px 10px;
 	}
