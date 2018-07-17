@@ -32,6 +32,13 @@
 				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td2' } },
+				
+				{ name: 'Icono Ordenador', element: 'span', attributes: { 'class': 'icon icon-ordenador' } },
+				{ name: 'Icono Bombilla', element: 'span', attributes: { 'class': 'icon icon-bombilla' } },
+				{ name: 'Icono Química', element: 'span', attributes: { 'class': 'icon icon-quimica' } },
+				{ name: 'Icono Birrete', element: 'span', attributes: { 'class': 'icon icon-birrete' } },
+				{ name: 'Icono libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
+				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
