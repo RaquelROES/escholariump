@@ -901,9 +901,38 @@ ol.bck-ol.bck-ol-1 li {
     background-repeat: no-repeat;
     display: inline-block;
     border-bottom: 0px;
-
 }
 	
+/*caja 3*/
+
+.bck-box.box-3.center .bck-title {
+    background: #a4bade;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 10px 0px 16px;
+    border-left: 10px solid #a4bade;
+    margin-bottom: -15px;
+}
+
+.bck-box.box-3:before {
+    content: "";
+    position: absolute;
+    padding: 25px;
+    background-size: contain;
+    margin-left: 10px;
+    background-image: url(images/icono0002072018.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
+}
+
+.bck-box.box-3.center .bck-content {
+    background: #ebeff8;
+    padding: 15px;
+    border-left: 10px solid #a4bade;
+}
 
 
 
