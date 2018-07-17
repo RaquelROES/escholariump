@@ -811,6 +811,12 @@ ol.bck-ol.bck-ol-1 li {
    		 margin-bottom: -15px;
 	}
 
+	.bck-box.box-1.center .bck-content{
+		background-color: #fffcd6;
+    	padding: 35px 10px 10px 10px;
+	}
+	
+
 	.bck-box.box-1 .bck-title:before {
 	content: ' '!;
     margin-right: 10px;
@@ -823,13 +829,7 @@ ol.bck-ol.bck-ol-1 li {
     border-bottom: 0px;
 	}
 
-	.bck-box.box-1.center .bck-content{
-		background-color: #fffcd6;
-    	padding: 35px 10px 10px 10px;
-	}
 	
-
-
 	.bck-box.box-2,
 	.bck-box.box-3  {
 		border: 0;
