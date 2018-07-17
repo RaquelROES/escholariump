@@ -960,6 +960,53 @@ ol.bck-ol.bck-ol-1 li {
     border-left: 10px solid #0d478f;
 }
 
+
+
+/* Icons */
+
+#actividad .player.audio {
+	background: url(images/Icon_audio.png) center center / cover;
+}
+
+.item-container .icon:before {
+	content: "";
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	   -moz-background-size: auto 100%;
+	     -o-background-size: auto 100%;
+	        background-size: auto 100%;
+	background-position: center center;
+	display: inline-block;
+	vertical-align: middle;
+	height: 40px;
+	width: 54px;
+	margin-top: -16px;
+}
+
+.item-container .icon-ordenador:before {
+	background-image: url(images/icono0008072018.png);
+}
+
+.item-container .icon-bombilla:before {
+	background-image: url(images/icono0003072018.png);
+}
+
+.item-container .icon-quimica:before {
+	background-image: url(images/icono0007072018.png);
+}
+
+.item-container .icon-birrete:before {
+	background-image: url(images/icono0006072018.png);
+}
+
+.item-container .icon-libro:before {
+	background-image: url(images/icono0004072018.png);
+}
+
+.item-container .icon-lapiz:before {
+	background-image: url(images/icono0005072018.png);
+}
+
 /**/
 
 @media screen and (max-width: 1099px) {
