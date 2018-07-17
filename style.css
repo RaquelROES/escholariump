@@ -817,17 +817,18 @@ ol.bck-ol.bck-ol-1 li {
 	}
 	
 
-	.bck-box.box-1 .bck-title:before {
-	content: ' '!;
+	.bck-box.box-1:before {
+    content: ".";
+    position: absolute;
     margin-right: 10px;
     padding: 28px;
     background-size: contain;
-    background-image: url(../images/icono0001072018.png);
+    background-image: url(/images/icono0001072018.png);
     float: left;
     background-repeat: no-repeat;
     display: inline-block;
     border-bottom: 0px;
-	}
+}
 
 	
 	.bck-box.box-2,
