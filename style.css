@@ -791,37 +791,44 @@ ol.bck-ol.bck-ol-1 li {
 		margin-bottom: 10px;
 	}
 
+/*caja caso práctico*/
+
 	.bck-box.box-1 {
-		border: 3px solid #5ebdb2;
-		background: #ffffff;
-		padding: 40px;
-		position: relative;
-		margin-top: 60px;
-		border-radius: 40px;
+		background: #f8bb00;
+    	padding-top: 7px;
+    	position: relative;
+  	  	margin-top: 40px;
 	}
 
-	.bck-box.box-1 hr {
-		border: 0;
-		display: block;
-		border-top: 1px solid #5ebdb2;
-	}
-
+	
 	.bck-box.box-1 .bck-title {
-		color: #f9bfad;
-		font-size: 2.4rem;
+		color: #000;
+   		 font-size: 2.4rem;
+   		 background-color: #ffec94;
+   		 width: fit-content;
+   		 margin-left: 60px;
+   		 padding: 0px 15px;
+   		 margin-bottom: -15px;
 	}
 
-	.bck-box.box-1 .bck-title1 {
-		font-size: 3.0rem;
-		margin-left: -40px;
-		padding: 4px 20px 4px 40px;
+	.bck-box.box-1 .bck-title:before {
+	content: ' '!;
+    margin-right: 10px;
+    padding: 28px;
+    background-size: contain;
+    background-image: url(../images/icono0001072018.png);
+    float: left;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-bottom: 0px;
 	}
-	.bck-box.box-1 .bck-title2 {
-		font-size: 2.0rem;
-		font-weight: 400;
-		color: #706f6f;
-		margin-bottom: 10px;
+
+	.bck-box.bck-content {
+		background-color: #fffcd6;
+    	padding: 35px 10px 10px 10px;
 	}
+	
+
 
 	.bck-box.box-2,
 	.bck-box.box-3  {
