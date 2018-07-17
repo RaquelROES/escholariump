@@ -769,14 +769,13 @@ ol.bck-ol.bck-ol-1 li {
 
 	.cke_contents table:not(.rf-tablegrid),
 	.content table:not(.rf-tablegrid) {
-		border: 1px solid #CBCCCD;
+		
 	}
 
 	.cke_contents table:not(.rf-tablegrid) td,
 	.cke_contents table:not(.rf-tablegrid) th,
 	.content table:not(.rf-tablegrid) td,
 	.content table:not(.rf-tablegrid) th {
-		border: 1px solid #CBCCCD;
 		padding: 7px;
 	}
 
@@ -785,8 +784,19 @@ ol.bck-ol.bck-ol-1 li {
 		margin-bottom: 10px;
 	}
 
+	table.bck-table-center {
+    border-bottom: 10px solid #5286b7 !important;
+    border-top: 10px solid #5286b7 !important;
+    border-right: transparent !important;
+    border-left: 15px solid #e5e9f3 !important;
+}
+
 	.bck-td {
-		background: #dcdcdc;
+		background: #fff;
+	}
+
+	.bck-td2 {
+		background: #f9bb00;
 	}
 
 	.bck-box {
