@@ -766,6 +766,7 @@ ol.bck-ol.bck-ol-1 li {
 	list-style: none;
 }
 
+#actividad .content .cke_contents ul li:before,
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before {
 	content: "";
@@ -779,7 +780,7 @@ ol.bck-ol.bck-ol-1 li {
 	border-radius: 50%;
 }
 
-
+#actividad .content .cke_contents .bck-ul li:before,
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
 	height: 20px;
@@ -796,11 +797,13 @@ ol.bck-ol.bck-ol-1 li {
     border-radius: 0px;
 }
 
+
 #actividad .content .texto_curso  ul.bck-ul-2 li,
 #actividad .content .workspace ul li ul.bck-ul-2 li {
 	list-style: none;
 }
 
+#actividad .content .cke_contents .bck-ul-2 li:before,
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before {
 	content: " "; 
