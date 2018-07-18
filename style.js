@@ -15,21 +15,19 @@
 			name: 'escholariump',
 			styles: [
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title3'} },
+				{ name: 'Título de la Unidad', element: 'h4', attributes: { 'class': 'bck-title2'} },
+				{ name: 'Subtítulo Unidad', element: 'h4', attributes: { 'class': 'bck-title3'} },
 
 				{ name: 'Énfasis', element: 'span', attributes: { 'class': 'bck-enfasis' }},
-				{ name: 'Enunciado actividad', element: 'h4', attributes: { 'class': 'bck-title-activity' }},
 				
-				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
-				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
-				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
-				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
-				{ name: 'Lista Ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
-				{ name: 'Lista Ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
+				{ name: 'Lista Tick', element: 'ul', attributes: { 'class': 'bck-ul'} },
+				{ name: 'Lista Info', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista Título ppal del tema', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Lista Ordenada azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista Ordenada amarilla', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+			
 
-				{ name: 'Tabla centrada', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
+				{ name: 'Tabla', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-center'} },
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td2' } },
 				
@@ -40,10 +38,10 @@
 				{ name: 'Icono libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
-				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } }
+				{ name: 'Caso Práctico', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-1' } },
+				{ name: 'Caja Autoevaluación', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-2' } },
+				{ name: 'Caja Compresión:', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-3' } },
+				{ name: 'Caja Recuadros opcionales', type: 'widget', widget: 'blink_box', attributes: { 'class': 'box-4' } }
 			]
 		},
 
