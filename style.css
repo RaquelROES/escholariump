@@ -531,28 +531,13 @@
 
 /* CKEDITOR */
 
-	.bck-title1,
+	
 	.bck-title2,
-	.bck-title3,
-	.bck-title-activity {
+	.bck-title3{
 		font-family: 'Candara',sans-serif;
 	}
 
-	.bck-title1,{
-    clear: both;
-    margin-bottom: 25px;
-    color: black;
-    display: inline-block;
-    border-left: 50px solid #5382B9;
-    border-right: 75px solid #5382B9;
-    border-top: 7px solid #5382B9;
-    border-bottom: 2px solid #0d478f;
-    background: #c4d3d3;
-    width: 100%;
-    padding: 5px 0px 0px 16px;
-    font-size: 24px;
-    font-weight: 500;
-	}
+	
 
 	.bck-title2 { 
     clear: both;
@@ -582,9 +567,8 @@
 	    border-bottom: 2px solid #0d478f;
 	}
 
-	.bck-enfasis,
-	strong {
-		color: #f9bfad;
+	.bck-enfasis {
+		color: #0d478f;
 		font-weight: bold;
 	}
 
