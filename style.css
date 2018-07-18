@@ -535,7 +535,7 @@
 	.bck-title2,
 	.bck-title3,
 	.bck-title-activity {
-		font-family: 'Raleway', Georgia, serif;
+		font-family: 'Candara';
 	}
 
 	.bck-title1,{
@@ -633,6 +633,8 @@ ol.bck-ol.bck-ol-1 li {
     font-size: 24px;
     border-bottom: 1px solid #dc1b16;
     border-bottom: 2px solid #0d478f;
+    font-family: 'Candara';
+    font-weight: bold;
 }
 
 
