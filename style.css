@@ -1,4 +1,64 @@
 /* General */
+/* Fonts */
+
+	@font-face {
+	  font-family: Arial Black;
+	  src: url(fonts/Arial Black.ttf);
+	  font-weight: 100;
+	}
+	@font-face {
+	  font-family: Arial;
+	  src: url(fonts/Arial.ttf);
+
+	}
+	@font-face {
+	  font-family: Avenir;
+	  src: url(fonts/Avenir.ttc);
+
+	}
+	@font-face {
+	  font-family: Calibri;
+	  src: url(fonts/Calibri.ttf);
+	}
+
+	@font-face {
+	  font-family: Candara Bold;
+	  src: url(fonts/Candara Bold.ttf);
+	}
+
+	@font-face {
+	  font-family: Candara;
+	  src: url(fonts/Candara.ttf);
+	}
+
+
+	@font-face {
+	  font-family: LithosPro-Black;
+	  src: url(fonts/LithosPro-Black.otf);
+	  font-weight: 100;
+	}
+	@font-face {
+	  font-family: LithosPro-Regular;
+	  src: url(fonts/LithosPro-Regular.otf);
+	  font-weight: 100;
+	  font-style: italic;
+	}
+
+	@font-face {
+	  font-family:MinionPro-Regular;
+	  src: url(fonts/MinionPro-Regular.otf);
+	}
+
+	@font-face {
+	  font-family: Palatino;
+	  src: url(fonts/Palatino.ttc);
+	}
+
+	@font-face {
+	  font-family: Sacramento-Regular;
+	  src: url(fonts/Sacramento-Regular.ttf);
+	}
+
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic,500italic,500);
 
