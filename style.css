@@ -663,6 +663,7 @@ ol.bck-ol.bck-ol-1 li {
     counter-increment: bck-li-counter;
     position: relative;
     z-index: 0;
+   margin-bottom: 12px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li:before,
@@ -750,7 +751,8 @@ ol.bck-ol.bck-ol-1 li {
 }
 
 #actividad .content ul.bck-ul li {
-	list-style: none;
+     list-style: none;
+     margin-bottom: 12px;
 }
 
 #actividad .content .cke_contents ul li:before,
@@ -787,7 +789,8 @@ ol.bck-ol.bck-ol-1 li {
 
 #actividad .content .texto_curso  ul.bck-ul-2 li,
 #actividad .content .workspace ul li ul.bck-ul-2 li {
-	list-style: none;
+    list-style: none;
+    margin-bottom: 12px;
 }
 
 #actividad .content .cke_contents .bck-ul-2 li:before,
