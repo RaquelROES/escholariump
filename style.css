@@ -838,7 +838,6 @@ ol.bck-ol.bck-ol-1 li {
 	.content table:not(.rf-tablegrid) td,
 	.content table:not(.rf-tablegrid) th {
 	   padding: 9px 7px 9px 7px;
-	   border: 1px solid #e5e5e5;
 	}
 
 	.cke_contents table:not(.rf-tablegrid) caption,
@@ -849,7 +848,7 @@ ol.bck-ol.bck-ol-1 li {
 	table.bck-table-center {
     border-bottom: 10px solid #5286b7 !important;
     border-top: 10px solid #5286b7 !important;
-    border-right: transparent !important;
+    border-right:15px solid #e5e9f3 !important;
     border-left: 15px solid #e5e9f3 !important;
 }
 
